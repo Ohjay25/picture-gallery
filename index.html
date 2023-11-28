@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pet Gallery</title>
     <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
     <nav class="nav">
@@ -14,32 +15,96 @@
             <li><a href="">Contact</a></li>
         </ul>
     </nav>
-    <header id="header">
-            <div class="header-text">
-                <h1>Everything Pets</h1>
-                <p>
-                    <strong>
+    <div id="homepage">
+        <header id="header">
+                <div class="header-text">
+                    <h1>Everything Pets</h1>
+                    <p>
                         Welcome to my page. <br>
                         Come along if you are excited about our furry companions. 
-                        
-                    </strong>
-                </p>
-            </div>
-    </header>
+                    </p>
+                </div>
+        </header>
 
-    <!-- <div class="dots">
-        <p><strong>.....</strong></p>
-    </div> -->
-
-    <main>
         <section class="first-sect">
             <h2>Pet Gallery</h2>
             <p>Common Pets Owned By Most People</p>
-        </section>
-        
+        </section> <hr>
+    </div>
+
+    <main>
+        <article>
+            <section id="intro">
+                <p>
+                    According to a survey conducted in the United States, the 
+                    most popular pets are dogs, cats, freshwater fish, birds, 
+                    small animals, reptiles, horses, and saltwater fish. Here 
+                    is a picture gallery showing the most common household pets:
+                </p>
+            </section>
+            <section class="flex items-center mx-4">
+                <div class="grid grid-cols-6 gap-4">
+                    <div>
+                        <img src="/img/dog.jpg" alt="icon"/>
+                        <p class="imagename" id="dogs">Dogs</p>
+                    </div>
+                    <div>
+                        <img src="/img/caucasian.jpg" alt="icon"/>
+                        <p class="imagename" id="caucasian">Caucasian</p>
+                    </div>
+                    <div>
+                        <img src="/img/corgi.jpg" alt="icon"/>
+                        <p class="imagename" id="corgi">Corgi</p>
+                    </div>
+                    <div>
+                        <img src="/img/german.jpg" alt="icon"/>
+                        <p class="imagename" id="german">German Shepherd</p>
+                    </div>
+                    <div>
+                        <img src="/img/cat.jpg" alt="icon"/>
+                        <p class="imagename" id="cats">Cats</p>
+                    </div>
+                    <div>
+                        <img src="/img/goldfish.jpg" alt="icon"/>
+                        <p class="imagename" id="fish">A Fish</p>
+                    </div>
+                    <div>
+                        <img src="/img/parrot.jpg" alt="icon"/>
+                        <p class="imagename" id="parrot">A Parrot</p>
+                    </div>
+                    <div>
+                        <img src="/img/hamsters.jpg" alt="icon"/>
+                        <p class="imagename" id="hamster">Hamster</p>
+                    </div>
+                    <div>
+                        <img src="/img/iguana.jpg" alt="icon"/>
+                        <p class="imagename" id="iguana">An Iguana</p>
+                    </div>
+                    <div>
+                        <img src="/img/rabbit.jpg" alt="icon"/>
+                        <p class="imagename" id="rabbit">Rabbits</p>
+                    </div>
+                    <div>
+                        <img src="/img/horse.jpg" alt="icon"/>
+                        <p class="imagename" id="horse">Horses</p>
+                    </div>
+                    <div>
+                        <img src="/img/pitbull.jpg" alt="icon"/>
+                        <p class="imagename" id="pitbull">Pitbull</p>
+                    </div>
+                </div>
+            </section>
+        </article>
     </main>
 
-    <footer></footer>
+    <footer id="footer">
+        <div class="footer-links">
+            <a href="https://www.linkedin.com/in/joy-wilson-9b96a7231/">LinkedIn</a>
+            <a href="https://twitter.com/ojwilson_">Twitter</a>
+            <a href="https://github.com/Ohjay25">Github</a>
+        </div>
+        <p>&#169Joy Wilson @hertechtrail.</p> 
+    </footer>
 
     <script src="./js/script.js"></script>
 </body>
